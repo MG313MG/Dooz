@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: fce68652b77208142b74fa3a643cda69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4578254316886599931
+    second: Blue_and_Red_Win_txt_0
+  - first:
+      213: 2375960757624762535
+    second: Blue_and_Red_Win_txt_1
+  - first:
+      213: -7120422747603801407
+    second: Blue_and_Red_Win_txt_2
+  - first:
+      213: -5767595688507088387
+    second: Blue_and_Red_Win_txt_3
+  - first:
+      213: 3684695235525160189
+    second: Blue_and_Red_Win_txt_4
+  - first:
+      213: -8038975139949303229
+    second: Blue_and_Red_Win_txt_5
+  - first:
+      213: -2104603084684328923
+    second: Blue_and_Red_Win_txt_6
+  - first:
+      213: 1225486405779364823
+    second: Blue_and_Red_Win_txt_7
+  - first:
+      213: 9770489610286542
+    second: Blue_and_Red_Win_txt_8
+  - first:
+      213: 6035845413616662897
+    second: Blue_and_Red_Win_txt_9
+  - first:
+      213: 3109648921601134913
+    second: Blue_and_Red_Win_txt_10
+  - first:
+      213: -2885293739055209952
+    second: Blue_and_Red_Win_txt_11
+  - first:
+      213: 1818740674646424506
+    second: Blue_and_Red_Win_txt_12
+  - first:
+      213: 5456670810946532139
+    second: Blue_and_Red_Win_txt_13
+  - first:
+      213: 3674502837841501281
+    second: Blue_and_Red_Win_txt_14
+  - first:
+      213: -7906376912970774233
+    second: Blue_and_Red_Win_txt_15
+  - first:
+      213: -4517632520192866565
+    second: Blue_and_Red_Win_txt_16
+  - first:
+      213: -5093605315485286833
+    second: Blue_and_Red_Win_txt_17
+  - first:
+      213: 3793218713755528407
+    second: Blue_and_Red_Win_txt_18
+  - first:
+      213: 9193057330642885364
+    second: Blue_and_Red_Win_txt_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue_and_Red_Win_txt_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 296
+        width: 522
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8ac696b0a398f30800000000000000
+      internalID: 4578254316886599931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_and_Red_Win_txt_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 158
+        width: 472
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179bac5ac61a3c350800000000000000
+      internalID: 6035845413616662897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_and_Red_Win_txt_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 28
+        width: 316
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6c62888252e41c0800000000000000
+      internalID: -4517632520192866565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e11c0ab8288fd8c42bc9fe0df6a20b40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue_and_Red_Win_txt_0: 4578254316886599931
+      Blue_and_Red_Win_txt_1: 2375960757624762535
+      Blue_and_Red_Win_txt_10: 3109648921601134913
+      Blue_and_Red_Win_txt_11: -2885293739055209952
+      Blue_and_Red_Win_txt_12: 1818740674646424506
+      Blue_and_Red_Win_txt_13: 5456670810946532139
+      Blue_and_Red_Win_txt_14: 3674502837841501281
+      Blue_and_Red_Win_txt_15: -7906376912970774233
+      Blue_and_Red_Win_txt_16: -4517632520192866565
+      Blue_and_Red_Win_txt_17: -5093605315485286833
+      Blue_and_Red_Win_txt_18: 3793218713755528407
+      Blue_and_Red_Win_txt_19: 9193057330642885364
+      Blue_and_Red_Win_txt_2: -7120422747603801407
+      Blue_and_Red_Win_txt_3: -5767595688507088387
+      Blue_and_Red_Win_txt_4: 3684695235525160189
+      Blue_and_Red_Win_txt_5: -8038975139949303229
+      Blue_and_Red_Win_txt_6: -2104603084684328923
+      Blue_and_Red_Win_txt_7: 1225486405779364823
+      Blue_and_Red_Win_txt_8: 9770489610286542
+      Blue_and_Red_Win_txt_9: 6035845413616662897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
