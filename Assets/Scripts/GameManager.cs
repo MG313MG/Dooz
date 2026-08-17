@@ -5,22 +5,22 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public  static GameManager instance;
-    public Animator[] anim;
+    public Animator[] _anim;
 
     [SerializeField]
     private AudioSource _adusioSource;
 
     [Space(10)]
     [SerializeField]
-    private AudioClip _buttonsClick, Win;
+    private AudioClip _buttonsClick, _win;
 
     [Space(10)]
     [SerializeField]
-    private RectTransform startingMenu, selectModes, draw, blue_Win, red_Win;
+    private RectTransform _startingMenu, _selectModes, _draw, _blueWin, _redWin;
 
     [Space(10)]
     [SerializeField]
-    private RectTransform Game_3v3, Game4v4, Game5v5, GameRandom;
+    private RectTransform _game_3v3, _game4v4, _game5v5, _gameRandom;
 
     [Space(10)]
     public UIButtons UIButtonsReader;
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     public GameButtons[] _GameButtons;
 
     [Space(10)]
-    public int Turn;
+    public int TurnNumber;
 
     public  string[,] GameBoardData;
 
@@ -50,13 +50,13 @@ public class GameManager : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        for(int i = 0; i < anim.Length; i++)
+        for(int i = 0; i < _anim.Length; i++)
         {
-            anim[i].SetFloat("Blue/Red", Turn);
+            _anim[i].SetFloat("Blue/Red", TurnNumber);
         }
         if (_cellsFilled >= _boardCells)
         {
-            draw.gameObject.SetActive(true);
+            _draw.gameObject.SetActive(true);
             Debug.Log("Draw");
         }
     }
@@ -151,12 +151,12 @@ public class GameManager : MonoBehaviour
         Debug.Log("Check");
         if (player == "Blue")
         {
-            blue_Win.gameObject.SetActive(true);
+            _blueWin.gameObject.SetActive(true);
             _isWinned = true;
         }
         else if (player == "Red")
         {
-            red_Win.gameObject.SetActive(true);
+            _redWin.gameObject.SetActive(true);
             _isWinned = true;
         }
     }
@@ -169,16 +169,16 @@ public class GameManager : MonoBehaviour
     //Set data an turn
     public void ChechDatas(GameButtons button)
     {
-        //Set turn animations
-        foreach (Animator animator in anim)
+        //Set turn _animations
+        foreach (Animator _animator in _anim)
         {
-            animator.SetFloat("Blue/Red", Turn);
+            _animator.SetFloat("Blue/Red", TurnNumber);
         }
         //Play sound
         _playSound(_buttonsClick);
         //Set datas
-        GameBoardData[button.Row, button.Column] = button.Turn;
-        Debug.Log($"Row : {button.Row}, Column : {button.Column}, Turn : {button.Turn}");
+        GameBoardData[button.Row, button.Column] = button.TurnString;
+        Debug.Log($"Row : {button.Row}, Column : {button.Column}, Turn : {button.TurnString}");
         //Check who win or draw
         CheckWinner();
         CheckDraw();
@@ -195,13 +195,13 @@ public class GameManager : MonoBehaviour
         //1 = Red
         if (_turn == 0)
         {
-            Turn = 0;
+            TurnNumber = 0;
         }
         else
         {
-            Turn = 1;
+            TurnNumber = 1;
         }
-        print(Turn);
+        print(TurnNumber);
     }
 
     public void SetGameBoardData()

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class GameButtons : MonoBehaviour
 { 
     [SerializeField]
-    private RectTransform Blue, Red;
+    private RectTransform _blue, _red;
 
     public RectTransform SpawnItem;
 
@@ -14,7 +14,7 @@ public class GameButtons : MonoBehaviour
 
     public Button button;
 
-    public string Turn;
+    public string TurnString;
 
     public int Row, Column;
 
@@ -23,7 +23,6 @@ public class GameButtons : MonoBehaviour
     private void Awake()
     {
         button = GetComponent<Button>();
-       
     }
 
     public void OnClickMe()
@@ -31,19 +30,20 @@ public class GameButtons : MonoBehaviour
         //Change turn and instantiate UI Item
         //0 = Blue
         //1 = Red
-        if ( GameManager.instance.Turn == 0)
+        if ( GameManager.instance.TurnNumber == 0)
         {
-            Turn = "Blue";
-            SpawnItem = Instantiate(Blue, transform.position, Quaternion.identity);
+            TurnString = "Blue";
+            SpawnItem = Instantiate(_blue, transform.position, Quaternion.identity);
         }
         else  
         {
-            Turn = "Red";
-            SpawnItem = Instantiate(Red, transform.position, Quaternion.identity);
+            TurnString = "Red";
+            SpawnItem = Instantiate(_red, transform.position, Quaternion.identity);
         }
-        _gameManagment.Turn++;
-        if (_gameManagment.Turn > 1)
-            _gameManagment.Turn = 0;
+        //Create a red or blue object UI
+        _gameManagment.TurnNumber++;
+        if (_gameManagment.TurnNumber > 1)
+            _gameManagment.TurnNumber = 0;
         SpawnItem.transform.SetParent(gameObject.transform);
         SpawnItem.transform.localScale = _spawnItemSize;
         //Set cell data
